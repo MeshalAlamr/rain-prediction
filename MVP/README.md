@@ -6,7 +6,7 @@ The dataset for this project is the [Rain in Australia](https://www.kaggle.com/j
 The dataset has a lot of null values, the table below shows the sum of all null values per column of the data.
 
 | Column | Sum of Null Values |
-|:---:|:---:|
+|:---|:---:|
 | Sunshine         |69835|
 | Evaporation      |62790|
 | Cloud3pm         |59358|
