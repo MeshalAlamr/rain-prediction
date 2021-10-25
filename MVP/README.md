@@ -1,5 +1,5 @@
-## Minimum Viable Product (MVP) of the Web Scraping / Regression Project
-One of the project's objectives is to classify whether or not it will rain tomorrow.
+## Minimum Viable Product (MVP) of the Classification Project
+One of the project's objectives is to classify whether or not it will rain tomorrow based on weather data.
 
 The dataset for this project is the [Rain in Australia](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) dataset on Kaggle, it contains 145,460 rows.
 
