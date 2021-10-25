@@ -37,11 +37,11 @@ If we were to drop all null values, we lose 89,040 rows out of 145,460 rows, i.e
 
 Therefore, instead, we dropped the _Sunshine, Evaporation, Cloud3pm, Cloud9am_ since they all contain more than 50k null values. Then, we dropped rows containing null values for the remaining columns. This leaves us with losing ~20% of data only instead of ~60%. The remaining rows are 112,925 out of 142,460.
 
-Afterwards, we removed outliers for numerical columns and performed one-hot encoding on categorical columns to prepare the data for the models. 
-
-The figure below shows the correlation between the features.
+The figure below shows the correlation between the numerical features.
 
 ![image](https://user-images.githubusercontent.com/68873733/138722594-90095b05-c066-4341-9d11-a3f5c62b9a73.png)
+
+Afterwards, we removed outliers for numerical columns and performed one-hot encoding on categorical columns to prepare the data for the models. 
 
 We plan to experiment with the Logistic Regression, Random Forest, XGBoost, Support Vector Machines, KNN and Naive Bayes models.
 
