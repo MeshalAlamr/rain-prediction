@@ -1,4 +1,4 @@
-## Minimum Viable Product (MVP) of the Web Scraping / Regression Project
+## Minimum Viable Product (MVP) of the Classification Project
 One of the project's objectives is to classify whether or not it will rain tomorrow.
 
 
