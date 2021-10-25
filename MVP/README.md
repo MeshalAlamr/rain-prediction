@@ -39,6 +39,10 @@ Therefore, instead, we dropped the _Sunshine, Evaporation, Cloud3pm, Cloud9am_ s
 
 Afterwards, we removed outliers for numerical columns and performed one-hot encoding on categorical columns to prepare the data for the models. 
 
+The figure below shows the correlation between the features.
+
+![image](https://user-images.githubusercontent.com/68873733/138722594-90095b05-c066-4341-9d11-a3f5c62b9a73.png)
+
 We plan to experiment with the Logistic Regression, Random Forest, XGBoost, Support Vector Machines, KNN and Naive Bayes models.
 
 Currently, we're in the midst of tuning the logistic regression model to obtain better results as the initial results were not satisfactory.
