@@ -39,8 +39,10 @@ Therefore, instead, we dropped the _Sunshine, Evaporation, Cloud3pm, Cloud9am_ s
 
 Afterwards, we removed outliers for numerical columns and performed one-hot encoding on categorical columns to prepare the data for the models. 
 
-Currently, we're in the midst of tuning the model to obtain better results as the initial results were not satisfactory.
+We plan to experiment with the Logistic Regression, Random Forest, XGBoost, Support Vector Machines, KNN and Naive Bayes models.
 
-Additionally, we managed to scrape "Time and Date" wensite to create a dataset of similar features of weather data to the original dataset in order to test the models at a later stage.
+Currently, we're in the midst of tuning the logistic regression model to obtain better results as the initial results were not satisfactory.
+
+Additionally, we managed to scrape "Time and Date" website to create a dataset of similar features of weather data to the original dataset in order to test the models at a later stage.
 
 Finally, we're also working on creating an Android app which will use two APIs to get current weather data for the location of the user and predict whether it will rain or not tomorrow.
