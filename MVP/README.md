@@ -31,7 +31,9 @@ The dataset has a lot of null values, the table below shows the sum of all null 
 | Location  |           0|
 | Date       |          0|
 
-If we were to drop all null values we lose 89,040 rows out of 145,460 rows if we decide to drop null values, i.e. ~60% of the data!
+Our target is the RainTomorrow column.
+
+If we were to drop all null values, we lose 89,040 rows out of 145,460 rows, i.e. ~60% of the data!
 
 Therefore, instead, we dropped the _Sunshine, Evaporation, Cloud3pm, Cloud9am_ since they all contain more than 50k null values. Then, we dropped rows containing null values for the remaining columns. This leaves us with losing ~20% of data only instead of ~60%. The remaining rows are 112,925 out of 142,460.
 
@@ -39,6 +41,6 @@ Afterwards, we removed outliers for numerical columns and performed one-hot enco
 
 Currently, we're in the midst of tuning the model to obtain better results as the initial results were not satisfactory.
 
-Additionally, we managed to scrape "Time and Date" to create a dataset of similar features to the original dataset in order to test the model.
+Additionally, we managed to scrape "Time and Date" wensite to create a dataset of similar features of weather data to the original dataset in order to test the models at a later stage.
 
-Finally, we're also working on creating an Android app which will use to APIs to get current weather data for the location of the user and predict whether it will rain or not tomorrow.
+Finally, we're also working on creating an Android app which will use two APIs to get current weather data for the location of the user and predict whether it will rain or not tomorrow.
