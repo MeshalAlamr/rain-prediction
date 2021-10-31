@@ -46,6 +46,7 @@
 | Recall | 0.63 |
 | F1 | 0.71 |
 | Accuracy | 0.89 |
+
 #### Using ADASYN, MinMax scaling and no exta features from feature engineering. 
 #### Confusion Matrix:
 
@@ -55,6 +56,7 @@
 
 ![auc-roc](https://user-images.githubusercontent.com/68873733/139589760-7ebeec8d-9033-4b85-843f-acce05924a94.png)
 
+#### Note: The final model was selected based on precision since we care about reducing the false positive which is predicting that it will rain tomorrow when it will actually not. This will affect the firefighters work as they may ignore an area since it is predicted to be rainy while it's actually not, risking that it could cause fires to spread further.  
 #### The final model can be found [here](https://github.com/MeshalAlamr/rain-prediction/tree/main/model).
 
 ## Presentation <a name="presentation" />
