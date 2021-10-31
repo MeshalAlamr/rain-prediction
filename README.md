@@ -36,7 +36,7 @@
 <b> The project notebook includes a total of 28 experiments including:
 - 4 Models : Random Forest, Logistic Regression, XGBoost and CatBoost.
 - 3 Sampling Techniques: SMOTE, ADASYN and Random Oversampling.
-- Feature Engineering. (+5 features)
+- Feature Engineering (+5 features).
 - MinMax Scaling. </b>
 
 #### The final selected model is the CatBoost model with:
