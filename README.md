@@ -61,11 +61,11 @@
 #### The presentation can be found [here](https://github.com/MeshalAlamr/rain-prediction/blob/main/final-presentation.pdf).
 
 ## Mobile App <a name="app"/>
-#### We've also developed an app on Android that gets the location input by the user, uses an API to get weather data for that location and display them then predicts whether it will rain tomorrow or not.
+#### We've also developed an app on Android that gets the location input by the user, uses the [Weatherstack](https://weatherstack.com/) API to get weather data for that location and displays them, then predicts whether it will rain tomorrow or not.
 
 ![app](https://user-images.githubusercontent.com/68873733/139590487-6b1366df-27bc-4d65-984c-fad811d03d91.png)
 
-#### Below, a demo of the mobile app is shown:
+### Below, a demo of the mobile app is shown:
 ![app](https://user-images.githubusercontent.com/68873733/139590439-da122f5f-1e4e-4c7d-83c7-2a65ec7288c9.gif)
 
 ## Authors <a name="authors"/>
