@@ -1,7 +1,8 @@
 # rain-prediction
-SDAIA Bootcamp Project 3 - Classification.
+#### SDAIA Bootcamp Project 3 - Classification.
 
-This project aims to help firefighters in fighting forest fires by predicting whether it will rain tomorrow or not. By doing so, the firefighters can focus more on areas that will not be rainy. A CatBoost classification model is applied to forecast the rain status tomorrow based on the [Rain in Australia](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) dataset from Kaggle.
+#### This project aims to help firefighters in fighting forest fires by predicting whether it will rain tomorrow or not. By doing so, the firefighters can focus more on areas that will not be rainy.
+#### A CatBoost classification model is applied to forecast the rain status tomorrow based on the [Rain in Australia](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) dataset from Kaggle.
 
 ## Table of Contents
 
@@ -10,6 +11,7 @@ This project aims to help firefighters in fighting forest fires by predicting wh
 - [Analysis and Results](#project)
 - [Presentation](#presentation)
 - [Mobile App](#app)
+- [Authors](#authors)
 
 
 ## Project MVP <a name="mvp" />
@@ -20,6 +22,7 @@ This project aims to help firefighters in fighting forest fires by predicting wh
 #### The dataset for this project is the [Rain in Australia](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) dataset from Kaggle.
 
 #### In total, the data consists of 145,460 rows and 23 columns.
+#### Our target is the "RainTomorrow" column.
 
 ## Analysis and Results <a name="project" />
 
@@ -27,29 +30,44 @@ This project aims to help firefighters in fighting forest fires by predicting wh
 
 #### Feature Importance:
 
-![download](https://user-images.githubusercontent.com/68873733/139589010-a86e4302-54ba-4985-a8d0-d4b25ddafdf9.png)
+![feature-importance](https://user-images.githubusercontent.com/68873733/139589643-be3b8491-2f0f-4a4d-bc4d-36f7bf4186df.png)
 
-#### The final selected model is the random forest regression model with:
+### Experiments:
+<b> The project notebook includes a total of 28 experiments including:
+- 4 Models : Random Forest, Logistic Regression, XGBoost and CatBoost.
+- 3 Sampling Techniques: SMOTE, ADASYN and Random Oversampling.
+- Feature Engineering. (+5 features)
+- MinMax Scaling. </b>
+
+#### The final selected model is the CatBoost model with:
 | Metric | Score |
-|:---:|:---:|
+|:---|:---:|
 | Precision | 0.82 |
 | Recall | 0.63 |
 | F1 | 0.71 |
 | Accuracy | 0.89 |
-
-
+#### Using ADASYN, MinMax scaling and no exta features from feature engineering. 
 #### Confusion Matrix:
+
+![confusion-matrix](https://user-images.githubusercontent.com/68873733/139589755-8d0d3c50-6106-4926-8b7e-855b6e5eb1d2.png)
 
 #### AUC - ROC Curve
 
-#### The final model can be found [here](https://github.com/MeshalAlamr/flight-price-prediction/tree/main/model).
+![auc-roc](https://user-images.githubusercontent.com/68873733/139589760-7ebeec8d-9033-4b85-843f-acce05924a94.png)
 
-![image](https://user-images.githubusercontent.com/68873733/137399435-4e2da145-512b-4df6-80e3-809e603b1727.png)
+#### The final model can be found [here](https://github.com/MeshalAlamr/rain-prediction/tree/main/model).
 
 ## Presentation <a name="presentation" />
-#### The presentation can be found [here](https://github.com/MeshalAlamr/flight-price-prediction/blob/main/final-presentation.pdf).
+#### The presentation can be found [here](https://github.com/MeshalAlamr/rain-prediction/blob/main/final-presentation.pdf).
 
-## Mobile App <a name="app" />
-#### We've also developed an app on Android that finds the average estimated prices for a selected route and month based on our scraped data.
+## Mobile App <a name="app"/>
+#### We've also developed an app on Android that gets the location input by the user, uses an API to get weather data for that location and display them then predicts whether it will rain tomorrow or not.
+
+![app](https://user-images.githubusercontent.com/68873733/139590487-6b1366df-27bc-4d65-984c-fad811d03d91.png)
 
 #### Below, a demo of the mobile app is shown:
+![app](https://user-images.githubusercontent.com/68873733/139590439-da122f5f-1e4e-4c7d-83c7-2a65ec7288c9.gif)
+
+## Authors <a name="authors"/>
+- ### [Meshal Alamr](https://github.com/MeshalAlamr)
+- ### [Norah Alkhalifah](https://github.com/NorahAlkhalifah)
